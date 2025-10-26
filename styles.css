@@ -1,1 +1,41 @@
 /* your code */
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+  padding: 40px;
+}
+
+/* Table Container */
+.stats-table {
+  margin: 0 auto;
+  border-collapse: separate;   /* Use 'separate' to make border-radius visible */
+  border-spacing: 0;           /* Remove unwanted spacing between cells */
+  width: 80%;
+  max-width: 800px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;         /* 👈 Rounded corners added */
+  overflow: hidden;            /* Ensures inner cells follow rounded corners */
+}
+/* Table Header */
+.stats-table thead {
+  background-color: blue;
+  color: white;
+}
+.stats-table th {
+  padding: 12px;
+  font-size: 16px;
+}
+/* Table Body */
+.stats-table td {
+  padding: 10px;
+}
+/* Row Styling */
+.stats-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
